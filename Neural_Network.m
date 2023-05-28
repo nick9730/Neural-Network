@@ -1,6 +1,6 @@
 clc;
 %[X,T] = bodyfat_dataset;
-w = readtable('data.xlsx');
+w = readtable('data.xlsx'); 'selected file' 
 A = table2array(w);
 X = A(1:6,1:177);
 T = A(11,1:177);
